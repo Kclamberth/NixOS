@@ -10,7 +10,7 @@
       style = ''
                * {
                  font-family: "JetBrainsMono Nerd Font";
-                 font-size: 10pt;
+                 font-size: 15pt;
                  font-weight: bold;
                  border-radius: 8px;
                  transition-property: background-color;
@@ -69,14 +69,14 @@
                  color: rgb(217, 224, 238);
                }
          #custom-launcher {
-                 font-size: 20px;
+                 font-size: 28px;
                  padding-left: 4px;
                  padding-right: 0px;
                  color: #7ebae4;
                }
          #mode, #clock, #memory, #temperature,#cpu,#mpd, #custom-wall, #temperature, #backlight, #pulseaudio, #network, #battery, #custom-powermenu, #cava {
-                 padding-left: 5px;
-                 padding-right: 5px;
+                 padding-left: 8px;
+                 padding-right: 8px;
                }
                /* #mode { */
                /* 	margin-left: 10px; */
@@ -153,7 +153,7 @@
                }
          #cava{
                  font-family: "JetBrainsMono Nerd Font";
-		 font-size: 15px;
+		 font-size: 23px;
                  color: #33ccff;
 		 padding-left: 2px;
                }

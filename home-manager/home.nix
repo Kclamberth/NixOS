@@ -30,12 +30,12 @@
     neofetch
     htop
     swww
-    rofi-wayland
     pavucontrol
     libnotify
     ffmpeg
     grim
     mpv
+    unzip
 
     #misc
     discord
@@ -58,7 +58,7 @@
     
     font = {
       name = "JetBrainsMono Nerd Font";
-      size = 10;
+      size = 14;
     };
 
     settings = {
@@ -176,9 +176,11 @@
         "waybar"
         "dunst"
       ];
-      monitor = "..., preferred, auto, auto";
-      #env = [ "XCURSOR_SIZE, 24" ];
-
+      monitor = ",preferred,auto,1";
+      env = [
+	  "XCURSOR_SIZE=24"
+	  #"GDK_DPI_SCALE=1.5"
+      ];
       input = {
         kb_layout = "us";
         # kb_variant =
