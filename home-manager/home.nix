@@ -171,8 +171,8 @@
     settings = {
 
       exec-once = [
-        "swww init"
-        "swww img ~/Wallpapers/wallpaper.png"
+        "swww-daemon"
+        "swww img ./Wallpapers/wallpaper.png"
         "waybar"
         "dunst"
       ];
