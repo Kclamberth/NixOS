@@ -31,6 +31,7 @@
     libnotify
     ffmpeg
     grim
+    mpv
 
     #misc
     discord
@@ -144,6 +145,21 @@
       #  name = "Sans";
       #  size = 11;
       #};
+  };
+
+  programs.mpv = {
+     enable = true;
+     config = {
+	panscan="1.0";
+	hwdec="auto-safe";
+	profile="gpu-hq";
+	scale="ewa_lanczossharp";
+	cscale="ewa_lanczossharp";
+	deband="yes";
+     
+	sub-font="JetBrains Mono";
+	osd-font="JetBrains Mono";
+     };
   };
 
   programs.waybar = {
