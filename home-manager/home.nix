@@ -172,7 +172,7 @@
 
       exec-once = [
         "swww-daemon"
-        "swww img ./Wallpapers/wallpaper.png"
+        "swww img ~/.config/home-manager/Wallpapers/wallpaper.png"
         "waybar"
         "dunst"
       ];
