@@ -23,11 +23,11 @@ configuration {
 
 /*****----- Global Properties -----*****/
 * {
-    font:                        "JetBrains Mono Nerd Font 10";
+    font:                        "JetBrains Mono Nerd Font 12";
     background:                  #201A41;
     background-alt:              #392684;
     foreground:                  #FFFFFF;
-    selected:                    #F801E8;
+    selected:                    #EA76CB;
     active:                      #00CCF5;
     urgent:                      #8D0083;
 }
@@ -55,6 +55,7 @@ mainbox {
     enabled:                     true;
     spacing:                     0px;
     background-color:            transparent;
+    background-image:            url("~/.config/home-manager/Wallpapers/rofi.png", width);
     orientation:                 horizontal;
     children:                    [ "imagebox", "listbox" ];
 }
@@ -62,7 +63,6 @@ mainbox {
 imagebox {
     padding:                     20px;
     background-color:            transparent;
-    background-image:            url("~/.config/home-manager/Wallpapers/rofi.png", height);
     orientation:                 vertical;
     children:                    [ "inputbar", "dummy", "mode-switcher" ];
 }
@@ -92,7 +92,7 @@ inputbar {
 textbox-prompt-colon {
     enabled:                     true;
     expand:                      false;
-    str:                         "";
+    str:                         " ";
     background-color:            inherit;
     text-color:                  inherit;
 }
@@ -101,7 +101,7 @@ entry {
     background-color:            inherit;
     text-color:                  inherit;
     cursor:                      text;
-    placeholder:                 "Search";
+    placeholder:                 "Search...";
     placeholder-color:           inherit;
 }
 

@@ -13,6 +13,7 @@ configuration {
 /*****----- Global Properties -----*****/
 @import                          "./colors/catppuccin.rasi"
 
+
 * {
     border-colour:               var(selected);
     handle-colour:               var(selected);
