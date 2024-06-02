@@ -22,7 +22,6 @@
   # environment.
   home.packages = with pkgs; [
     #generic
-    neovim
     firefox
     ( nerdfonts.override { fonts = [ "JetBrainsMono" ]; } )
 
@@ -430,7 +429,8 @@
   };
 
   home.sessionVariables = {
-     EDITOR = "nvim";
+     #EDITOR = "vim";
+     #EDITOR set by nixvim
   };
 
   # Let Home Manager install and manage itself.

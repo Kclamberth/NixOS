@@ -2,5 +2,6 @@
   imports = [
     ./waybar
     ./rofi
+    ./nixvim
   ];
 }
