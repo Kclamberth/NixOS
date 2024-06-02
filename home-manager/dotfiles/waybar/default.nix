@@ -163,6 +163,7 @@
         "position" = "top";
         modules-left = [
           "custom/launcher"
+	  "hyprland/workspaces"
           "mpd"
           "cava"
         ];
@@ -197,6 +198,20 @@
             "format-plugged" = " {capacity}%";
             "format-alt" = "{time} {icon}";
             "format-icons" = ["󰂎" "󰁺" "󰁻" "󰁼" "󰁽" "󰁾" "󰁿" "󰂀" "󰂁" "󰂂" "󰁹"];
+        };
+        "hyprland/workspaces" = {
+          "format" = "{icon}";
+          "on-click" = "activate";
+          # "on-scroll-up" = "hyprctl dispatch workspace e+1";
+          # "on-scroll-down" = "hyprctl dispatch workspace e-1";
+        };
+        "idle_inhibitor" = {
+          "format" = "{icon}";
+          "format-icons" = {
+            "activated" = "";
+            "deactivated" = "";
+          };
+          "tooltip" = false;
         };
         "cava" = {
             "hide_on_silence" = false;
@@ -302,7 +317,7 @@
           "tooltip" = false;
         };
         "tray" = {
-          "icon-size" = 15;
+          "icon-size" = 20;
           "spacing" = 5;
         };
       }];
