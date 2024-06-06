@@ -12,7 +12,7 @@
                  font-family: "JetBrainsMono Nerd Font";
                  font-size: 15pt;
                  font-weight: bold;
-                 border-radius: 8px;
+                 border-radius: 10px;
                  transition-property: background-color;
                  transition-duration: 0.5s;
                }
@@ -30,7 +30,7 @@
                  animation-direction: alternate;
                }
                window#waybar {
-                 background-color: transparent;
+		 background-color: transparent;
                }
                window > box {
                  margin-left: 5px;
@@ -312,7 +312,7 @@
           "interval" = 5;
         };
         "custom/powermenu" = {
-          "format" = "";
+          "format" = " ";
           "on-click" = "pkill rofi || ~/.config/rofi/powermenu/type-3/powermenu.sh";
           "tooltip" = false;
         };

@@ -62,7 +62,7 @@
 
     settings = {
       confirm_os_window_close = 0;
-      background_opacity = "0.8";  
+      background_opacity = "0.9";  
       window_padding_width = 5;
       scrollback_lines = 10000;
       enable_audio_bell = false;
@@ -211,7 +211,7 @@
       decoration = {
         # See https://wiki.hyprland.org/Configuring/Variables/ for more
 
-        rounding = 10;
+        rounding = 8;
 
         blur = {
           enabled = true;
@@ -220,25 +220,35 @@
         };
 
         drop_shadow = "yes";
-        shadow_range = 4;
+        shadow_range = 28;
         shadow_render_power = 3;
-        "col.shadow" = "rgba(1a1a1aee)";
+        #"col.shadow" = "rgba(1a1a1aee)";
+	"col.shadow" = "rgba(00000045)";
       };
 
       animations = {
         enabled = "yes";
+	first_launch_animation = true;
 
         # Some default animations, see https://wiki.hyprland.org/Configuring/Animations/ for more
 
-        bezier = "myBezier, 0.05, 0.9, 0.1, 1.05";
+	bezier = [
+	"slidein, 0.39, 0.575, 0.565, 1"
+    	"myBezier, 0.05, 0.9, 0.1, 1.05"
+    	"linear, 0.0, 0.0, 0.0, 0.0"
+    	"woosh, 0.445, 0.05, 0, 1"
+	];
 
         animation = [
-          "windows, 1, 7, myBezier"
-          "windowsOut, 1, 7, default, popin 80%"
-          "border, 1, 10, default"
-          "borderangle, 1, 8, default"
-          "fade, 1, 7, default"
-          "workspaces, 1, 6, default"
+	  "borderangle, 1, 40, linear, loop"
+	  "windowsMove, 1, 5, default"
+	  "layers, 1, 2, woosh, slide"
+	  "windowsIn, 1, 2, woosh, slide"
+	  "windows, 1, 7, default, slide"
+	  "windowsOut, 1, 5, woosh, slide"
+	  "fadeSwitch, 1, 7, default"
+	  "fadeOut, 1, 5, linear"
+	  "workspaces, 1, 4, woosh, slide"
         ];
       };
 
