@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ config, pkgs, inputs, ... }:
 
 {
   imports = [
@@ -22,7 +22,6 @@
   # environment.
   home.packages = with pkgs; [
     #generic
-    firefox
     ( nerdfonts.override { fonts = [ "JetBrainsMono" ]; } )
 
     #utils

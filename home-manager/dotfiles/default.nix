@@ -3,5 +3,6 @@
     ./waybar
     ./rofi
     ./nixvim
+    ./firefox
   ];
 }
