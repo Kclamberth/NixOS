@@ -32,11 +32,17 @@
         DisableTelemetry = true;
         DisableFirefoxStudies = true;
         EnableTrackingProtection = {
-          Value= true;
+          Value = true;
           Locked = true;
           Cryptomining = true;
           Fingerprinting = true;
         };
+	FirefoxSuggest = {
+	  WebSuggestions = false; 
+	  SponsoredSuggestions = false;
+	  ImproveSuggest = false;
+	  Locked = true;
+	};
         DisablePocket = true;
         DisableFirefoxAccounts = true;
         DisableAccounts = true;
@@ -73,8 +79,6 @@
           "browser.contentblocking.category" = { Value = "strict"; Status = "locked"; };
 	  "layout.css.devPixelsPerPx" = "1.1";
 	  "browser.startup.homepage" = "https://portal.home.kclamberth.com";
-	  "privacy.donottrackheader.enabled" = lock-true;
-          "privacy.globalprivacycontrol.enabled" = lock-true;
           "extensions.pocket.enabled" = lock-false;
           "extensions.screenshots.disabled" = lock-true;
           "browser.topsites.contile.enabled" = lock-false;
