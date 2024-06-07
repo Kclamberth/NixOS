@@ -43,7 +43,7 @@
                }
          #workspaces {
                  padding-left: 0px;
-                 padding-right: 4px;
+                 padding-right: 0px;
                }
          #workspaces button {
                  padding-top: 5px;
@@ -135,11 +135,11 @@
                }
          #custom-powermenu {
                  color: rgb(242, 143, 173);
-                 padding-right: 8px;
+                 padding-right: 6px;
                }
          #tray {
                  padding-right: 8px;
-                 padding-left: 10px;
+                 padding-left: 8px;
                }
          #mpd.paused {
                  color: #414868;
@@ -225,7 +225,7 @@
         };
         "custom/launcher" = {
           "format" = " ";
-          "on-click" = "pkill rofi || rofi2";
+          "on-click" = "pkill rofi || rofi -show";
           "on-click-middle" = "exec default_wall";
           "on-click-right" = "exec wallpaper_random";
           "tooltip" = false;

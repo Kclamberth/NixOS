@@ -71,7 +71,7 @@
         # Check about:config for options.
         Preferences = { 
           "browser.contentblocking.category" = { Value = "strict"; Status = "locked"; };
-	  "layout.css.devPixelsPerPx" = "1.07";
+	  "layout.css.devPixelsPerPx" = "1.1";
 	  "browser.startup.homepage" = "https://portal.home.kclamberth.com";
 	  "privacy.donottrackheader.enabled" = lock-true;
           "privacy.globalprivacycontrol.enabled" = lock-true;
