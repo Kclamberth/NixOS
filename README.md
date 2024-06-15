@@ -1,6 +1,8 @@
 # NixOS
 Nix OS configs I am satisfied with.
+
 WIP - Started 05/30/24
+
 MAJOR UPDATE 06/15/24: 
 ```
 monitor = [
