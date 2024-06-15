@@ -6,5 +6,6 @@
     ./firefox
     ./hyprland
     ./gtk
+    ./qt
   ];
 }
