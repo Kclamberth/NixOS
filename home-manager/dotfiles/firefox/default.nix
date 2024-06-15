@@ -110,6 +110,7 @@
 	  # Theme: default dark by mozilla
           "extensions.activeThemeID" = "firefox-compact-dark@mozilla.org";
           "extensions.extensions.activeThemeID" = "firefox-compact-dark@mozilla.org";
+
           "extensions.update.enabled" = false;
           "extensions.webcompat.enable_picture_in_picture_overrides" = true;
           "extensions.webcompat.enable_shims" = true;

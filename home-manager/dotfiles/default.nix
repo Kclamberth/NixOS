@@ -4,5 +4,7 @@
     ./rofi
     ./nixvim
     ./firefox
+    ./hyprland
+    ./gtk
   ];
 }
