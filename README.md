@@ -22,6 +22,6 @@ monitor = [
 ```
 Secondary Computer:
 ```
-"monitor = ",preferred,auto,1";"
+monitor = ",preferred,auto,1";
 ```
 
