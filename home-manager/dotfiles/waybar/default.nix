@@ -2,8 +2,8 @@
 
 let
   custom = rec {
-    font = "JetBrainsMono Nerd Font";
-    fontsize = "15";
+    font = "RobotoMono Nerd Font";
+    fontsize = "12";
     primary_accent = "cba6f7";
     secondary_accent = "89b4fa";
     tertiary_accent = "f5f5f5";
@@ -71,7 +71,7 @@ in
         "clock" 
       ];
       clock= {
-        format = " {:%a, %b %d, %I:%M %p}";
+        format = "  {:%a %b %d, %I:%M %p}";
         tooltip= "true";
         tooltip-format= "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>";
         format-alt= " {:%d/%m}";
@@ -235,7 +235,7 @@ in
                 border: none;
                 border-radius: 0px;
                 font-family: ${custom.font};
-                font-size: 15px;
+                font-size: 14px;
                 min-height: 0;
             }
 
@@ -307,7 +307,7 @@ in
                 padding: 10px 10px 15px 25px;
                 margin-left: 7px;
                 font-weight: bold;
-                font-size: 17px;
+                font-size: 16px;
             }
             #custom-launcher {
                 color: #${custom.secondary_accent};

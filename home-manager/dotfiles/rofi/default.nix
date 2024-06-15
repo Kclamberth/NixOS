@@ -23,7 +23,7 @@ configuration {
 
 /*****----- Global Properties -----*****/
 * {
-    font:                        "JetBrains Mono Nerd Font 12";
+    font:                        "RobotoMono Nerd Font 12";
     background:                  #201A41;
     background-alt:              #392684;
     foreground:                  #FFFFFF;

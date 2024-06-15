@@ -2,7 +2,7 @@
 
 let
     custom = {
-        font = "JetBrainsMono Nerd Font";
+        font = "RobotoMono Nerd Font";
         fontsize = "12";
         cursor = "Numix-Cursor";
     };

@@ -22,7 +22,7 @@
   # environment.
   home.packages = with pkgs; [
     # fonts
-    (nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
+    (nerdfonts.override { fonts = [ "JetBrainsMono" "RobotoMono" ]; })
 
     # universal utils
     neofetch
@@ -54,13 +54,13 @@
     theme = "Catppuccin-Mocha";
     
     font = {
-      name = "JetBrainsMono Nerd Font";
+      name = "RobotoMono Nerd Font";
       size = 14;
     };
 
     settings = {
       confirm_os_window_close = 0;
-      background_opacity = "0.9";  
+      background_opacity = "0.8";  
       window_padding_width = 5;
       scrollback_lines = 10000;
       enable_audio_bell = false;
@@ -102,8 +102,8 @@
 	cscale="ewa_lanczossharp";
 	deband="yes";
      
-	#sub-font="JetBrainsMono Nerd Font";
-	#osd-font="JetBrainsMono Nerd Font";
+	sub-font="RobotoMono Nerd Font";
+	osd-font="RobotoMono Nerd Font";
      };
   };
 
@@ -141,7 +141,7 @@
         always_run_script = true;
         corner_radius = 10;
         follow = "mouse";
-        font = "JetBrainsMono Nerd Font 10";
+        font = "RobotoMono Nerd Font 10";
         format = "<b>%s</b>\\n%b"; #format = "<span foreground='#f3f4f5'><b>%s %p</b></span>\n%b"
         frame_color = "#232323";
         frame_width = 1;
