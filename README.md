@@ -12,6 +12,7 @@ monitor = [
 ];
 ```
 **CURRENT:**
+![Example Image](https://github.com/Kclamberth/NixOS/blob/main/assets/nix2-1.png)
 
 **OLD:**
 ![Example Image](https://github.com/Kclamberth/NixOS/blob/main/assets/nix1.png)
