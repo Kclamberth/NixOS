@@ -11,6 +11,8 @@ monitor = [
   "HDMI-0,1920x1080@60,2560x0,1"  # Secondary monitor to the right of the primary
 ];
 ```
+**CURRENT:**
 
+**OLD:**
 ![Example Image](https://github.com/Kclamberth/NixOS/blob/main/assets/nix1.png)
 
