@@ -11,6 +11,7 @@ MAJOR UPDATE 06/15/24:
 ![Example Image](https://github.com/Kclamberth/NixOS/blob/main/assets/nix1.png)
 
 **Notes:**
+
 Primary Computer:
 ```
 monitor = [
