@@ -4,6 +4,7 @@ Nix OS configs I am satisfied with.
 WIP - Started 05/30/24
 
 MAJOR UPDATE 06/15/24: 
+
 **CURRENT:**
 ![Example Image](https://github.com/Kclamberth/NixOS/blob/main/assets/nix2-1.png)
 
