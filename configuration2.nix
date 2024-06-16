@@ -83,6 +83,13 @@
   # Hyprland
   programs.hyprland.enable = true;
 
+  # Gaming
+  programs.steam = {
+    enable = true;
+    gamescopeSession.enable = true;
+  };
+  programs.gamemode.enable = true;
+
   # Sound (pipewire)
   sound.enable = true;
   security.rtkit.enable = true;
@@ -108,8 +115,9 @@
   # $ nix search wget
   environment.systemPackages = with pkgs; [
     vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
-  #  wget
-    pkgs.home-manager
+  # wget
+    home-manager
+    mangohud
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
