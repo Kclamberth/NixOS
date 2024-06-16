@@ -36,7 +36,6 @@
 
     # misc
     discord
-    steam
   ];
 
   home.file = {
