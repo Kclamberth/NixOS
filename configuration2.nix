@@ -47,7 +47,7 @@
   services.xserver = {
     layout = "us";
     xkbVariant = "";
-    videoDrivers = "nvidia";
+    videoDrivers = [ "nvidia" ];
   };
 
   # Nvidia cards only:
