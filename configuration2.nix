@@ -50,7 +50,7 @@
     videoDrivers = "nvidia";
   };
 
-  # nvidia cards only:
+  # Nvidia cards only:
   hardware.opengl = {
     enable = true;
     driSupport = true;
@@ -77,13 +77,13 @@
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
-  # flakes
+  # Flakes
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
-  # hyprland
+  # Hyprland
   programs.hyprland.enable = true;
 
-  # sound (pipewire)
+  # Sound (pipewire)
   sound.enable = true;
   security.rtkit.enable = true;
   services.pipewire = {
@@ -97,7 +97,7 @@
   xdg.portal.enable = true;
   xdg.portal.extraPortals = [ pkgs.xdg-desktop-portal-gtk ];
 
-  # garbage collector
+  # Garbage collector
   nix.gc = {
     automatic = true;
     dates = "weekly";
