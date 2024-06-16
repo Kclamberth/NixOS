@@ -60,13 +60,20 @@
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
-  # flakes
+  # Flakes
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
-  # hyprland
+  # Hyprland
   programs.hyprland.enable = true;
 
-  # sound (pipewire)
+  # Gaming
+  programs.steam = {
+    enable = true;
+    gamescopeSession.enable = true;
+  };
+  programs.gamemode.enable = true;
+
+  # Sound (pipewire)
   sound.enable = true;
   security.rtkit.enable = true;
   services.pipewire = {
@@ -80,7 +87,7 @@
   xdg.portal.enable = true;
   xdg.portal.extraPortals = [ pkgs.xdg-desktop-portal-gtk ];
 
-  # garbage collector
+  # Garbage collector
   nix.gc = {
     automatic = true;
     dates = "weekly";
@@ -91,8 +98,8 @@
   # $ nix search wget
   environment.systemPackages = with pkgs; [
     vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
-  #  wget
-    pkgs.home-manager
+    home-manager
+    mangohud
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
