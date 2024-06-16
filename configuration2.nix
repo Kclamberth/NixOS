@@ -89,6 +89,9 @@
   };
   programs.gamemode.enable = true;
 
+  # VPN
+  services.tailscale.enable = true;
+
   # Sound (pipewire)
   sound.enable = true;
   security.rtkit.enable = true;
