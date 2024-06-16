@@ -24,12 +24,12 @@ configuration {
 /*****----- Global Properties -----*****/
 * {
     font:                        "RobotoMono Nerd Font 12";
-    background:                  #201A41;
-    background-alt:              #392684;
+    background:                  #25253a;
+    background-alt:              #25253a;
     foreground:                  #FFFFFF;
-    selected:                    #EA76CB;
-    active:                      #00CCF5;
-    urgent:                      #8D0083;
+    selected:                    #89b4fa;
+    active:                      #cba6f7;
+    urgent:                      #f5f5f5;
 }
 
 /*****----- Main Window -----*****/
@@ -92,7 +92,7 @@ inputbar {
 textbox-prompt-colon {
     enabled:                     true;
     expand:                      false;
-    str:                         " ";
+    str:                         " ";
     background-color:            inherit;
     text-color:                  inherit;
 }

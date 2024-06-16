@@ -212,8 +212,8 @@ in
       ];
       layerrule = [
         "blur, waybar"
-        "blur, wofi"
-        "ignorezero, wofi"
+        "blur, rofi"
+        "ignorezero, rofi"
       ];
     };
     # Submaps
