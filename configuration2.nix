@@ -61,6 +61,7 @@
     sync.enable = true;
     # integrated
     intelBusId = "PCI:0:2:0";
+    # amdgpuBusId = "PCI:0:0:0";
     # dedicated
     nvidiaBusId = "PCI:1:0:0";
   };
