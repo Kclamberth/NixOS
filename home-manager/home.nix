@@ -22,7 +22,7 @@
   # environment.
   home.packages = with pkgs; [
     # fonts
-    (nerdfonts.override { fonts = [ "JetBrainsMono" "RobotoMono" ]; })
+    (nerdfonts.override { fonts = [ "RobotoMono" ]; })
 
     # universal utils
     neofetch
