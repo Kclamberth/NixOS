@@ -36,6 +36,7 @@
 
     # misc
     discord
+    remmina
   ];
 
   home.file = {
