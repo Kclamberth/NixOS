@@ -33,6 +33,7 @@
     grim
     mpv
     unzip
+    yt-dlp
 
     # misc
     discord
