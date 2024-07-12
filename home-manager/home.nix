@@ -38,6 +38,7 @@
     # misc
     discord
     remmina
+    godot_4
   ];
 
   home.file = {
