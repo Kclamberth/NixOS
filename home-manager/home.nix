@@ -34,6 +34,7 @@
     mpv
     unzip
     yt-dlp
+    tmux
 
     # misc
     discord

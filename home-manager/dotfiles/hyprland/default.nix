@@ -36,8 +36,9 @@ in
       monitor = [
         # name,resolution,position,scale
         # position can be negative to swtich monitor to the left or right side
-        "DP-2,2560x1440@144,0x0,1"
-        "HDMI-0,1920x1080@60,2560x0,1"
+        "DP-1,3840x2160@144,0x0,1.5,bitdepth,10"
+        "DP-2,2560x1440@165,2560x0,1"
+        "eDP-1,1920x1080@60,0x0,1"
       ];
       exec-once = [
         "swww-daemon"
