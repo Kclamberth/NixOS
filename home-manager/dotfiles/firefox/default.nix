@@ -84,7 +84,7 @@
 
 	  # Telemetry 
           "extensions.pocket.enabled" = lock-false;
-          "extensions.screenshots.disabled" = lock-true;
+          "extensions.screenshots.disabled" = lock-false;
           "browser.topsites.contile.enabled" = lock-false;
           "browser.formfill.enable" = lock-false;
           "browser.search.suggest.enabled" = lock-false;
