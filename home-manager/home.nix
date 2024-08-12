@@ -40,6 +40,8 @@
     discord
     remmina
     godot_4
+    gimp
+    freetube
   ];
 
   home.file = {
