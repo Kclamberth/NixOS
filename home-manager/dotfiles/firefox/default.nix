@@ -60,7 +60,7 @@
         # Valid strings for installation_mode are "allowed", "blocked",
         # "force_installed" and "normal_installed".
         ExtensionSettings = {
-          "*".installation_mode = "blocked"; # blocks all addons except the ones specified below
+          "*".installation_mode = "allowed"; # blocks all addons except the ones specified below
           # uBlock Origin:
           "uBlock0@raymondhill.net" = {
             install_url = "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi";
@@ -71,6 +71,13 @@
             install_url = "https://addons.mozilla.org/firefox/downloads/latest/darkreader/latest.xpi";
             installation_mode = "force_installed";
           };
+          # FTLRedirect:
+          #"{98ce0517-8620-4124-9b3e-f5b824524c0a}" = {
+          #  install_url = "https://addons.mozilla.org/firefox/downloads/latest/ftlredirect/latest.xpi";
+          #  installation_mode = "force_installed";
+          #};
+
+
         };
   
         /* ---- PREFERENCES ---- */

@@ -1,27 +1,22 @@
-{  pkgs, ... }:
-
-let
-    custom = {
-        font = "RobotoMono Nerd Font";
-        fontsize = "12";
-        cursor = "Numix-Cursor";
-    };
-in
+{ 
+    pkgs, 
+    ... 
+}:
 {
     gtk = {
         enable = true;
-        font.name = "${custom.font} ${custom.fontsize}";
+        font.name = "RobotoMono Nerd Font 12";
         iconTheme = {
             name = "Papirus-Dark";
             package = pkgs.catppuccin-papirus-folders;
         };
         cursorTheme = {
-            name = "${custom.cursor}";
+            name = "Numix-Cursor";
             package = pkgs.numix-cursor-theme;
         };
         theme = {
-            name = "Catppuccin-Mocha-Standard-Blue-Dark";
-            package = pkgs.catppuccin-gtk.override { variant="mocha"; };
+            name = "Catppuccin-GTK-Purple-Dark";
+            package = pkgs.magnetic-catppuccin-gtk.override { accent = [ "purple" ]; };
         };
         gtk3.extraConfig = {
             Settings = ''
