@@ -32,8 +32,10 @@
     grim
     mpv
     unzip
+    zip
     yt-dlp
     tmux
+    cdrkit
 
     # misc
     discord
