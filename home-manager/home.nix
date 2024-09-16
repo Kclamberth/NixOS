@@ -43,6 +43,8 @@
     godot_4
     gimp
     freetube
+    inkscape
+    arduino-ide
   ];
 
   home.file = {
